@@ -9,7 +9,7 @@ const Projects = ({ projects, setSelectedProject }) => {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 reveal-on-scroll">
           <h2 className="font-display font-bold text-3xl sm:text-4xl text-slate-900 dark:text-white">
-            Showcase of <span className="text-gradient-cyan-purple">My Best Projects</span>
+           My <span className="text-gradient-cyan-purple">Projects</span>
           </h2>
           <div className="w-16 h-1 bg-gradient-to-r from-purple-500 to-cyan-500 mx-auto mt-4 rounded-full" />
           <p className="text-slate-600 dark:text-gray-400 mt-4 text-sm sm:text-base font-light">
