@@ -160,7 +160,7 @@ const Hero = () => {
               {/* Glass Frame */}
               <div className="absolute inset-0 rounded-3xl glass-panel p-3 ring-1 ring-slate-200 dark:ring-white/10 overflow-hidden shadow-2xl flex items-center justify-center">
                 <img
-                  src="/assets/photo2.jpg"
+                  src="/assets/photo.jpg"
                   alt="SAYED Developer"
                   className="w-full h-full object-cover rounded-2xl"
                   loading="eager"

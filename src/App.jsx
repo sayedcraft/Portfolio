@@ -32,7 +32,6 @@ function App() {
       image: "/assets/bookcourier.png",
       techStack: [
         "React",
-        "Node.js",
         "MongoDB",
         "Express",
         "Tailwind CSS",
@@ -43,6 +42,28 @@ function App() {
         "Founded in 2026, BookCourier started with a simple yet powerful mission: to make literature and academic resources accessible to every corner of Bangladesh. We realized that while readers are everywhere, well-stocked bookstores are not.",
       liveLink: "https://book-courier-by-sayed.web.app/",
       githubLink: "https://github.com/sayedcraft/Assignment-11-client",
+      challenges:
+        "Handling real-time reputation score updates across concurrent user threads while maintaining zero database latency. Resolving CSS layouts for nested comments and formatting complex markdown contents safely on the client side.",
+      futurePlans:
+        "Integrate an AI-assisted automated code verification tool to validate code snippets directly in responses, alongside offline sync using local storage DB.",
+    },
+    {
+      id: "TechVault",
+      name: "TechVault - Tech Product Marketplace",
+      image: "/assets/teachVault.png",
+      techStack: [
+        "Next.js",
+        "React",
+        "MongoDB",
+        "Express",
+        "Tailwind CSS",
+        "API",
+        "Firebase",
+      ],
+      briefDescription:
+        "Founded in 2026, TechVault started with a simple yet powerful mission: to make technology products accessible to every corner of the world. We realized that while tech enthusiasts are everywhere, well-stocked stores are not.",
+      liveLink: "https://techvault-by-sayed.vercel.app/",
+      githubLink: "https://github.com/sayedcraft/TechVault",
       challenges:
         "Handling real-time reputation score updates across concurrent user threads while maintaining zero database latency. Resolving CSS layouts for nested comments and formatting complex markdown contents safely on the client side.",
       futurePlans:
@@ -167,12 +188,10 @@ function App() {
       dot.style.transition = "opacity 1s ease-out, transform 1s ease-out";
       document.body.appendChild(dot);
 
-      // একটু পরেই মিলিয়ে যাবে
       setTimeout(() => {
         dot.style.opacity = "0";
         dot.style.transform = "scale(0)";
       }, 10);
-      // DOM থেকে সরিয়ে ফেলা
       setTimeout(() => dot.remove(), 1000);
     };
 
