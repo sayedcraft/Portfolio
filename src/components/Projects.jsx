@@ -49,7 +49,7 @@ const Projects = ({ projects, setSelectedProject }) => {
 
               {/* Card Details */}
               <div className="p-6 space-y-4">
-                <h3 className="font-display font-bold text-xl text-slate-900 dark:text-white group-hover:text-cyan-600 dark:group-hover:text-cyan-400 transition-colors">
+                <h3  className="font-display font-bold text-xl text-slate-900 dark:text-white group-hover:text-cyan-600 dark:group-hover:text-cyan-400 transition-colors">
                   {project.name}
                 </h3>
                 

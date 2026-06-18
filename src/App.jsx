@@ -151,6 +151,35 @@ function App() {
     };
   }, []);
 
+  // mouse hover effect
+
+  useEffect(() => {
+    const handleMouseMove = (e) => {
+      const dot = document.createElement("div");
+      dot.style.position = "fixed";
+      dot.style.left = `${e.clientX}px`;
+      dot.style.top = `${e.clientY}px`;
+      dot.style.width = "10px";
+      dot.style.height = "10px";
+      dot.style.backgroundColor = "#06b6d4";
+      dot.style.borderRadius = "50%";
+      dot.style.pointerEvents = "none";
+      dot.style.transition = "opacity 1s ease-out, transform 1s ease-out";
+      document.body.appendChild(dot);
+
+      // একটু পরেই মিলিয়ে যাবে
+      setTimeout(() => {
+        dot.style.opacity = "0";
+        dot.style.transform = "scale(0)";
+      }, 10);
+      // DOM থেকে সরিয়ে ফেলা
+      setTimeout(() => dot.remove(), 1000);
+    };
+
+    window.addEventListener("mousemove", handleMouseMove);
+    return () => window.removeEventListener("mousemove", handleMouseMove);
+  }, []);
+
   return (
     <div className="bg-slate-50 dark:bg-bg-dark text-slate-800 dark:text-gray-100 min-h-screen relative selection:bg-cyan-500/20 selection:text-cyan-300 transition-colors duration-300">
       {/* Decorative top header glow */}
