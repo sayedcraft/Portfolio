@@ -107,7 +107,7 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
               <a
                 href="/resume.pdf"
-                download="Alex_Resume.pdf"
+                download="Sayed_Resume.pdf"
                 className="w-full sm:w-auto px-8 py-4 rounded-xl font-semibold text-sm flex items-center justify-center gap-3 bg-gradient-to-r from-purple-600 to-cyan-600 hover:from-purple-500 hover:to-cyan-500 text-white transition-all duration-300 shadow-lg shadow-purple-500/20 hover:shadow-cyan-500/30 hover:-translate-y-0.5 active:translate-y-0"
               >
                 <FileText size={18} />

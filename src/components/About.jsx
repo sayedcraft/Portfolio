@@ -6,6 +6,7 @@ import {
   BookOpen,
   Camera,
   Trophy,
+  MapPin,
 } from "lucide-react";
 
 const About = () => {
@@ -19,13 +20,7 @@ const About = () => {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 reveal-on-scroll">
           {/* Added: Available for work badge */}
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-500/10 border border-purple-500/20 text-purple-600 dark:text-purple-400 text-xs font-medium mb-4">
-            <span className="relative flex h-2 w-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-purple-400 opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-purple-500"></span>
-            </span>
-            Available for freelance projects
-          </div>
+          
 
           <h2 className="font-display font-bold text-3xl sm:text-4xl text-slate-900 dark:text-white">
             About <span className="text-gradient-purple-cyan">Me</span>
@@ -36,7 +31,7 @@ const About = () => {
         {/* Main Content: Bio Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start reveal-on-scroll">
           {/* Left Column: Biography */}
-          <div className="space-y-8">
+          <div className="space-y-8">g
             <div className="flex items-center gap-2 text-purple-600 dark:text-purple-400">
               <Sparkles size={20} />
               <h3 className="font-display font-semibold text-lg text-slate-900 dark:text-white">
@@ -107,7 +102,7 @@ const About = () => {
               </h4>
               <div className="flex flex-wrap gap-3">
                 {[
-                  { icon: Camera, name: "Photography", color: "rose" },
+                  { icon: MapPin, name: "Traveling", color: "rose" },
                   { icon: Trophy, name: "Sports", color: "amber" },
                   { icon: BookOpen, name: "Reading", color: "emerald" },
                 ].map((item) => (
