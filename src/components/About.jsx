@@ -31,7 +31,7 @@ const About = () => {
         {/* Main Content: Bio Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start reveal-on-scroll">
           {/* Left Column: Biography */}
-          <div className="space-y-8">g
+          <div className="space-y-8">
             <div className="flex items-center gap-2 text-purple-600 dark:text-purple-400">
               <Sparkles size={20} />
               <h3 className="font-display font-semibold text-lg text-slate-900 dark:text-white">

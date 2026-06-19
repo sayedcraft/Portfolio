@@ -4,17 +4,19 @@ import TechMarquee from './TechMarquee';
 
 const Skills = () => {
   const frontendSkills = [
-    { name: 'React / Next.js', level: 90, color: 'bg-cyan-500 shadow-cyan-500/20' },
+    { name: 'React', level: 90, color: 'bg-cyan-500 shadow-cyan-500/20' },
     { name: 'JavaScript (ES6+)', level: 85, color: 'bg-yellow-500 shadow-yellow-500/20' },
     { name: 'Tailwind CSS', level: 95, color: 'bg-teal-400 shadow-teal-400/20' },
-    { name: 'HTML5 / CSS3', level: 90, color: 'bg-orange-500 shadow-orange-500/20' }
+    { name: 'HTML5 & CSS3', level: 90, color: 'bg-orange-500 shadow-orange-500/20' },
+    { name: 'Next.js', level: 80, color: 'bg-orange-500 shadow-orange-500/20' },
   ];
 
   const backendToolsSkills = [
-    { name: 'Node.js / Express', level: 80, color: 'bg-green-500 shadow-green-500/20' },
-    { name: 'PostgreSQL / MongoDB', level: 75, color: 'bg-indigo-500 shadow-indigo-500/20' },
+    { name: 'Node.js', level: 80, color: 'bg-green-500 shadow-green-500/20' },
+    { name: 'MongoDB', level: 85, color: 'bg-indigo-500 shadow-indigo-500/20' },
     { name: 'Git & GitHub', level: 88, color: 'bg-purple-500 shadow-purple-500/20' },
-    { name: 'Figma / DevTools', level: 70, color: 'bg-rose-500 shadow-rose-500/20' }
+    { name: 'Express', level: 80, color: 'bg-green-500 shadow-green-500/20' },
+    { name: 'Figma', level: 85, color: 'bg-rose-500 shadow-rose-500/20' },
   ];
 
   return (
