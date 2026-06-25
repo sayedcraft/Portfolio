@@ -91,6 +91,28 @@ function App() {
         "Add sync integrations for Apple Health and Google Fit APIs, along with real-time multiplayer workout challenges using WebSockets.",
     },
     {
+      id: "LuxeRetreats",
+      name: "LuxeRetreats - Luxury Vacation Booking App",
+      image: "/assets/luxe.png",
+      techStack: [
+        "Next.js",
+        "Javascript",
+        "Firebase",
+        "MongoDB",
+        "Express",
+        "API",
+        "Tailwind CSS",
+      ],
+      briefDescription:
+        "A luxury vacation booking app that allows users to search, filter, and explore their favorite destinations with detailed information and reviews.",
+      liveLink: "https://luxe-retreats-by-sayed.vercel.app/",
+      githubLink: "https://github.com/sayedcraft/LuxeRetreats_frontend",
+      challenges:
+        "Structuring smooth and performant render frames when refreshing real-time charting canvases. Compiling user heart rate fluctuations into unified, downloadable report formats with pure JavaScript libraries.",
+      futurePlans:
+        "Add sync integrations for Apple Health and Google Fit APIs, along with real-time multiplayer workout challenges using WebSockets.",
+    },
+    {
       id: "HERO.IO",
       name: "HERO.IO - App Installation & Management Platform",
       image: "/assets/hero.png",
