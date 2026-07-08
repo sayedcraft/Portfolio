@@ -53,7 +53,7 @@ const Skills = () => {
                 <div key={skill.name} className="space-y-1">
                   <div className="flex justify-between text-xs font-medium">
                     <span className="text-slate-700 dark:text-gray-300">{skill.name}</span>
-                    <span className="text-cyan-600 dark:text-cyan-400">{skill.level}%</span>
+                    {/* <span className="text-cyan-600 dark:text-cyan-400">{skill.level}%</span> */}
                   </div>
                   <div className="w-full h-1.5 bg-slate-200 dark:bg-white/5 rounded-full overflow-hidden">
                     <div 
@@ -78,7 +78,7 @@ const Skills = () => {
                 <div key={skill.name} className="space-y-1">
                   <div className="flex justify-between text-xs font-medium">
                     <span className="text-slate-700 dark:text-gray-300">{skill.name}</span>
-                    <span className="text-purple-600 dark:text-purple-400">{skill.level}%</span>
+                    {/* <span className="text-purple-600 dark:text-purple-400">{skill.level}%</span> */}
                   </div>
                   <div className="w-full h-1.5 bg-slate-200 dark:bg-white/5 rounded-full overflow-hidden">
                     <div 
