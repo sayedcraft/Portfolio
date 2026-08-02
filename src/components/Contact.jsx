@@ -15,9 +15,9 @@ const Contact = () => {
   const contactInfo = [
     {
       type: "Email",
-      value: "sayedmojumder2003@gmail.com",
+      value: "sayed.dev.contact@gmail.com",
       icon: <Mail size={22} />,
-      action: "mailto:sayedmojumder2003@gmail.com",
+      action: "mailto:sayed.dev.contact@gmail.com",
       color: "text-purple-400 group-hover:bg-purple-500/10",
     },
     {
