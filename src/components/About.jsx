@@ -1,10 +1,10 @@
 // import React from "react";
 import {
   GraduationCap,
-  Briefcase,
+  
   Sparkles,
   BookOpen,
-  Camera,
+
   Trophy,
   MapPin,
 } from "lucide-react";

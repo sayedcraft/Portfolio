@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import { Mail, Phone, MessageSquare, Send, Check, Copy } from "lucide-react";
 import emailjs from "@emailjs/browser"; 
 

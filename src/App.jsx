@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -26,6 +26,7 @@ function App() {
 
   // Projects data definition
   const projectsData = [
+    // bookcourier
     {
       id: "BookCourier",
       name: "BookCourier - Book Delivery Service",
@@ -47,49 +48,7 @@ function App() {
       futurePlans:
         "Integrate an AI-assisted automated code verification tool to validate code snippets directly in responses, alongside offline sync using local storage DB.",
     },
-    {
-      id: "TechVault",
-      name: "TechVault - Tech Product Marketplace",
-      image: "/assets/teachVault.png",
-      techStack: [
-        "Next.js",
-        "React",
-        "MongoDB",
-        "Express",
-        "Tailwind CSS",
-        "API",
-        "Firebase",
-      ],
-      briefDescription:
-        "Founded in 2026, TechVault started with a simple yet powerful mission: to make technology products accessible to every corner of the world. We realized that while tech enthusiasts are everywhere, well-stocked stores are not.",
-      liveLink: "https://techvault-by-sayed.vercel.app/",
-      githubLink: "https://github.com/sayedcraft/TechVault",
-      challenges:
-        "Handling real-time reputation score updates across concurrent user threads while maintaining zero database latency. Resolving CSS layouts for nested comments and formatting complex markdown contents safely on the client side.",
-      futurePlans:
-        "Integrate an AI-assisted automated code verification tool to validate code snippets directly in responses, alongside offline sync using local storage DB.",
-    },
-    {
-      id: "MovieMaster",
-      name: "MovieMaster - Movie Discovery App",
-      image: "/assets/moviemaster.png",
-      techStack: [
-        "React",
-        "Firebase",
-        "MongoDB",
-        "Express",
-        "API",
-        "Tailwind CSS",
-      ],
-      briefDescription:
-        "A sleek movie discovery app that allows users to search, filter, and explore their favorite films with detailed information and trailers.",
-      liveLink: "https://movie-master-a10.netlify.app/",
-      githubLink: "https://github.com/sayedcraft/Assignment-10-client",
-      challenges:
-        "Structuring smooth and performant render frames when refreshing real-time charting canvases. Compiling user heart rate fluctuations into unified, downloadable report formats with pure JavaScript libraries.",
-      futurePlans:
-        "Add sync integrations for Apple Health and Google Fit APIs, along with real-time multiplayer workout challenges using WebSockets.",
-    },
+    // LuxeRetreats
     {
       id: "LuxeRetreats",
       name: "LuxeRetreats - Luxury Vacation Booking App",
@@ -112,33 +71,20 @@ function App() {
       futurePlans:
         "Add sync integrations for Apple Health and Google Fit APIs, along with real-time multiplayer workout challenges using WebSockets.",
     },
+    // Heaven furniture
     {
-      id: "HERO.IO",
-      name: "HERO.IO - App Installation & Management Platform",
-      image: "/assets/hero.png",
-      techStack: ["HTML", "Tailwind CSS", "JavaScript", "Firebase", "React"],
+      id: "HeavenFurnitureMart",
+      name: "Heaven Furniture Mart - Luxury Furniture & Interior Website",
+      image: "/assets/furniture.png",
+      techStack: ["Next.js", "Javascript", "React", "Tailwind CSS"],
       briefDescription:
-        "A collaborative team Kanban dashboard featuring live card drags, nested tasks, user assignees, activity timelines, and direct messaging channels. Built with React, Tailwind CSS, and Supabase Realtime for seamless multiplayer interactions.",
-      liveLink: "https://assignment-08-sayed.netlify.app/",
-      githubLink: "https://github.com/sayedcraft/Assignment-8",
+        "A premium furniture and interior website designed to showcase luxury, bespoke, and handcrafted furniture through an elegant, responsive, and conversion-focused user experience.",
+      liveLink: "https://furniture-mart-by-sayed.netlify.app/",
+      githubLink: "https://github.com/sayedcraft/Heaven_Furniture_Mart",
       challenges:
-        "Ensuring seamless multiplayer synchronization with Supabase Realtime during simultaneous card drags, and maintaining precise visual states for drag-and-drop actions on mobile browsers. Implementing a robust notification system for task updates and user mentions without overwhelming the UI.",
+        "Creating a premium luxury-focused interface while keeping the experience responsive, performant, and easy to navigate across different screen sizes. Structuring reusable components and category-based product data to support scalable product browsing and detailed product pages.",
       futurePlans:
-        "Design custom automation triggers (e.g. automatically moving tasks based on dates), add Gantt chart analytics, and create custom webhooks for Slack integrations. ",
-    },
-    {
-      id: "English জানালা",
-      name: "English জানালা - Language Learning App",
-      image: "/assets/englishjanala.png",
-      techStack: ["HTML", "Tailwind CSS", "JavaScript"],
-      briefDescription:
-        "An interactive language learning platform with real-time chat, progress tracking, and personalized lesson recommendations. Built with React, Tailwind CSS, and Firebase for seamless user authentication and data management.",
-      liveLink: "https://sayedcraft.github.io/English-Janala-by-Sayed/",
-      githubLink: "https://github.com/sayedcraft/English-Janala-by-Sayed",
-      challenges:
-        "Ensuring seamless multiplayer synchronization with Supabase Realtime during simultaneous card drags, and maintaining precise visual states for drag-and-drop actions on mobile browsers. Implementing a robust notification system for task updates and user mentions without overwhelming the UI. ",
-      futurePlans:
-        "Bookmarking lessons, adding AI-powered pronunciation feedback, and integrating gamified challenges to enhance user engagement.",
+        "Add a complete e-commerce experience with shopping cart and checkout functionality, advanced product filtering, customer accounts, online ordering, and a backend-powered product management system.",
     },
   ];
 
