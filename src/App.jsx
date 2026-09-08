@@ -79,7 +79,7 @@ function App() {
       techStack: ["Next.js", "Javascript", "React", "Tailwind CSS"],
       briefDescription:
         "A premium furniture and interior website designed to showcase luxury, bespoke, and handcrafted furniture through an elegant, responsive, and conversion-focused user experience.",
-      liveLink: "https://furniture-mart-by-sayed.netlify.app/",
+      liveLink: "https://heaven-furniture-mart-by-sayed.vercel.app/",
       githubLink: "https://github.com/sayedcraft/Heaven_Furniture_Mart",
       challenges:
         "Creating a premium luxury-focused interface while keeping the experience responsive, performant, and easy to navigate across different screen sizes. Structuring reusable components and category-based product data to support scalable product browsing and detailed product pages.",
