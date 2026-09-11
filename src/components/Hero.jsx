@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { ArrowDown, FileText } from "lucide-react";
 
 // Custom inline SVG components for brand icons since Lucide deprecated them
@@ -104,7 +104,7 @@ const Hero = () => {
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
               <a
-                href="/Sayed_MERN_Developer_Resume.pdf"
+                href="/Abdul_Azhar_MERN_Stack_Developer_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto px-8 py-4 rounded-xl font-semibold text-sm flex items-center justify-center gap-3 bg-gradient-to-r from-purple-600 to-cyan-600 hover:from-purple-500 hover:to-cyan-500 text-white transition-all duration-300 shadow-lg shadow-purple-500/20 hover:shadow-cyan-500/30 hover:-translate-y-0.5 active:translate-y-0"
